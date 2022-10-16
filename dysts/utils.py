@@ -4,8 +4,9 @@ This module is intended to have no dependencies on the rest of
 the package
 
 """
+from numpy import *
 import numpy as np
-from numpy.fft import rfft, irfft
+
 
 import warnings
 from scipy.integrate import odeint, solve_ivp
